@@ -7,29 +7,25 @@
     
     <style>
       body {
-        /* Set your GIF as the background image */
-        background-image: url("rick.gif");
-        
-        /* Make the image stretch to perfectly fill the whole screen */
+        background-image: url("./rick.gif?v=1");
         background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        
-        /* Reset margins and ensure full screen height */
         margin: 0;
         height: 100vh;
-        
-        /* Text styling so your headers are readable over the GIF */
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         color: white;
-        text-shadow: 2px 2px 8px black;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
         font-family: sans-serif;
-        padding: 20px;
       }
 
       h1 {
-        /* Forces the text container background to be see-through */
         background-color: transparent !important;
+        font-size: 4rem;
         margin: 0;
       }
     </style>
